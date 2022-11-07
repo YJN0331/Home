@@ -1,0 +1,131 @@
+@media screen and (max-width: 600px) {
+
+  /* layout */
+  * {
+    font-size: 12px;
+  }
+
+  article,
+  footer,
+  #main {
+    padding: 0 2vw;
+  }
+
+
+  /* about */
+  .about {
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    line-height: 2vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #aboutimg {
+    margin: 0 auto;
+    width: auto;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  #aboutimg img {
+    height: 100%;
+    width: auto;
+  }
+
+  .about>li:nth-child(1) {
+    width: 100%;
+  }
+
+  .about>li:nth-child(2) {
+    width: 105%;
+  }
+
+  .about>li:nth-child(3) {
+    width: 100%;
+  }
+
+  #license {
+    line-height: 5vw;
+  }
+
+  .category~p {
+    margin: 10px 0;
+    line-height: 3.5vw;
+    font-size: 1vw;
+  }
+
+  header {
+    display: none;
+  }
+
+  .category {
+    border-bottom: 2px solid red;
+  }
+
+  /* skills */
+
+  #skills h2 {
+    font-size: 15vw;
+    margin-bottom: 5vh;
+
+  }
+
+  .skills {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 1vw;
+  }
+
+  .skill {
+    width: 30%;
+    margin: 0 auto;
+    padding: 0;
+    height: 30%;
+  }
+
+  /* PORTFOLIO */
+
+
+  .single-items {
+    margin: 0;
+  }
+
+  .item>a img {
+    max-width: 150vw;
+    max-height: 100vh;
+  }
+
+  #portfolio h2 {
+    font-size: 10vw;
+    text-align: center;
+    margin: 10vh 0;
+  }
+
+  .swiper-box {
+    position: relative;
+    overflow: hidden;
+    height: 60%;
+    width: 90%;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

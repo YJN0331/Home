@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'JSDongkang-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumBarunpen';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  transition: all 0.1s;
+  word-break: keep-all;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera*/
+}
+
+html {
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  background-color: white;
+  color: white;
+}
+
+.about_div {
+  font-family: 'NanumBarunpen';
+}
+
+
+#main {
+  background-image: linear-gradient(128deg, #C98187 33%, #F2A9A9 66%);
+  padding: 0 5vw;
+}
+
+#about,
+footer {
+  background-image: linear-gradient(128deg, #C98187 33%, #F2A9A9 66%);
+  padding: 0 10%;
+}
+
+
+#portfolio {
+  background-image: linear-gradient(128deg, #C98187 33%, #F2A9A9 66%);
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}

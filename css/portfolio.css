@@ -1,0 +1,131 @@
+#portfolio h2 {
+  font-size: 10vh;
+  text-align: center;
+  margin: 0 0 4vh;
+}
+
+.swiper-slide>article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  float: left;
+  width: 100%;
+}
+
+.swiper-slide-duplicate-next,
+.swiper-slide-duplicate-prev {
+  opacity: 0.5;
+  transform: scale(0.8);
+}
+
+.port_img {
+  height: 100%;
+  position: relative;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.more {
+  width: 100px;
+  height: 50px;
+  border: 2px solid #00000075;
+  border-radius: 50px;
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  color: #00000075;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.go_live {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5vw;
+  z-index: 9;
+  opacity: 0;
+}
+
+.location {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  TRANSFORM: translate(-50%, -50%);
+  color: white;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.port_img:hover .more{
+  opacity: 1;
+}
+
+a:visited {
+  color: white;
+  text-decoration: line-through;
+}
+
+.port_img>img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5vw;
+  border: 5px solid #9ac5d2;
+  display: flex;
+  justify-content: center;
+}
+
+
+.port_txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top : 12px;
+  visibility:hidden;
+  opacity: 0;
+}
+
+.techicon + p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+
+.swiper-button-prev {
+  left: -20% !important;
+}
+
+.swiper-button-next {
+  right: -20% !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: white;
+  font-size: 4vw !important;
+}

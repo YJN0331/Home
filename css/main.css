@@ -1,0 +1,12 @@
+@import "./layout.css";
+@import "./header.css";
+@import "./about.css";
+@import "./skills.css";
+@import "./portfolio.css";
+@import "./footer.css";
+@import "./tablet.css";
+@import "./mobile.css"; 
+/* library */
+@import "./animate.css"; 
+@import "./swiper.css";
+@import "./jquery.fullPage.css";
