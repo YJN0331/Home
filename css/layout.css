@@ -32,7 +32,6 @@
 html {
   margin: 0 auto;
   width: 100%;
-
 }
 
 body {
@@ -48,21 +47,19 @@ body {
   font-family: 'NanumBarunpen';
 }
 
-
-#main {
-  background-image: linear-gradient(128deg, #C98187 33%, #F2A9A9 66%);
+header {
+  background-image: linear-gradient(128deg, #C98187 25%, #F2A9A9 60%);
   padding: 0 5vw;
 }
 
 #about,
 footer {
-  background-image: linear-gradient(128deg, #C98187 33%, #F2A9A9 66%);
+  background-image: linear-gradient(150deg, #C98184 55%, #F2A9A9 70%);
   padding: 0 10%;
 }
 
-
 #portfolio {
-  background-image: linear-gradient(128deg, #C98187 33%, #F2A9A9 66%);
+  background-image: linear-gradient(128deg, #C98187 25%, #F2A9A9 60%);
   padding: 0;
 }
 
