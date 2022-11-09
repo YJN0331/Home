@@ -1,7 +1,7 @@
 #portfolio h2 {
-  font-size: 10vh;
+  font-size: var(--font-size-title);
   text-align: center;
-  margin: 0 0 4vh;
+  margin: 0;
 }
 
 .swiper-slide>article {
