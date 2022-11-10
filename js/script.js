@@ -1,17 +1,7 @@
 $(function () {
   $("#fullpage").fullpage({
-    //options here
     autoScrolling: true,
-    // scrollHorizontally: true,
     navigation: true,
-    // fitToSection: true,
-    // fitToSectionDelay: 500,
-    // afterLoad: function(origin, destination, direction) {
-    //   if(origin == 2) {
-    //     console.log("second page loaded")
-    //   }
-
-    // }
   });
 
   // portfolio swiper
@@ -25,7 +15,7 @@ $(function () {
     cardsEffect: {
       slideShadows: false,
     },
-    observer: true, // 추가
+    observer: true,
     observeParents: true,
     pagination: {
       el: ".swiper-pagination",
@@ -41,15 +31,15 @@ $(function () {
           opacity: "0",
         });
         $(".go_live").css({
-          opacity: "0"
-        }); 
+          opacity: "0",
+        });
         $(".more").css({
           display: "flex",
         });
       },
     },
-    
   });
+
 
   $(".port_img").click(function () {
     $(this).find(".more").css({
@@ -64,19 +54,17 @@ $(function () {
     });
   });
 
+  
   $(".swiper-button-prev, .swiper-button-next").click(function () {
     $(".port_txt").css({
       visibility: "hidden",
       opacity: "0",
     });
     $(".go_live").css({
-      opacity: "0"
-    });    
+      opacity: "0",
+    });
     $(".more").css({
       display: "flex",
     });
   });
-
-
 });
-

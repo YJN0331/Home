@@ -2,7 +2,8 @@
 .skill_img {
   height: 100%;
   width: 5%;
-  margin: 0 20px;
+  margin: 0 2vw;
+  border-radius: 15%;
 }
 
 .skill_img:hover {
