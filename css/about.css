@@ -118,7 +118,6 @@
   transform : translateX(-75%);
   min-width: 40%;
   width: auto;
-  background-color: red;
  }
 
 #career_balloon {
@@ -126,9 +125,6 @@
   transform : translate(-55%, -10%);
   min-width: 55%;
   width: auto;
-  background-color: lightgreen;
-  opacity: 1;
-  visibility: visible;
 }
 
 #license_balloon {
@@ -136,7 +132,6 @@
   transform : translateX(-100%);
   min-width: 30%;
   width: auto; 
-  background-color: yellow;
 
 }
 
