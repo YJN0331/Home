@@ -102,9 +102,9 @@
 .balloon {
   position: absolute;
   background-color: white;
+  left : 60%;
   visibility: hidden;
   opacity: 0;
-  transform: translateX(-50%);
   padding: 3%;
   border-radius: 30px;
   color: black;
@@ -115,60 +115,62 @@
 
 #profile_balloon {
   top: 3%;
-  left : calc(50% + 50px);
-  transform : translateX(-60%);
+  transform : translateX(-75%);
   min-width: 40%;
   width: auto;
+  background-color: red;
  }
 
 #career_balloon {
   top: 15%;
-  left : calc(55% + 50px);
-  transform : translateX(-50%);
-  min-width: 60%;
+  transform : translate(-55%, -10%);
+  min-width: 55%;
   width: auto;
-  
+  background-color: lightgreen;
+  opacity: 1;
+  visibility: visible;
 }
 
 #license_balloon {
   bottom: 10%;
-  left : calc(50% + 50px);
-  transform : translateX(-80%);
+  transform : translateX(-100%);
   min-width: 30%;
   width: auto; 
+  background-color: yellow;
+
 }
 
 #profile_balloon::after {
   content: "";
   position: absolute;
-  top: 55%;
+  top: 45%;
   transform : translateY(-100%);
-  left: -39px;
-  border-right: 40px solid white;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
+  left: -29px;
+  border-right: 30px solid white;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
 }
 
 #career_balloon::after {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform : translateY(-100%);
-  left: -39px;
-  border-right: 40px solid white;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
+  left: -29px;
+  border-right: 30px solid white;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
 }
 
 #license_balloon::after {
   content: "";
   position: absolute;
-  top: 50%;
-  transform : translateY(5%);
-  left: -39px;
-  border-right: 40px solid white;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
+  top: 65%;
+  transform : translateY(-10%);
+  left: -29px;
+  border-right: 30px solid white;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
 }
 
 #profile:hover+#profile_balloon {
